@@ -55,13 +55,11 @@
 
 //  swift_mag2.c
 
-//  Same goals as mag_array.c but using the integration method found in double_integration.c
-
-//  gives same results as mag_array.c but is faster, but still too slow to loop through all time steps on my personal machine- my estimate is that it would take between 5-8 hours to do this so I have been manually changing the time at each step
-
-//  finding magnitudes in Swift bands using correctly calculated F_nu values
+//  Calculating magnitudes in Swift bands using correctly calculated F_nu values
 
 //  DOES TAKE TIME DELAY EFFECTS INTO ACCOUNT
+
+// Calculates on band at a time bc slow - need to improve speed of integration
 
 //  Created by Anna Haynie on 6/19/19.
 
