@@ -9,8 +9,9 @@
 
 //  updated_lum4.c
 //  
-//  Finding the integrated luminosity by taking time dilation effects into account in the same way as updated_lum3.c -- this time correcting the r(tr) calculation
-//  the tr calculation relies on r(t), so a second iteraton would find tr' using r(tr) and then a third gets tr'' using r(tr') etc... until the error between r(t) and r(tr) is satisfactorily small
+//  Finding the integrated luminosity by taking time dilation effects into account 
+//  the tr calculation relies on r(t), so a second iteraton would find tr' using r(tr) and then a third gets tr'' using r(tr') etc...
+//  until the error between r(t) and r(tr) is satisfactorily small
 //
 //  Created by Anna Haynie on 5/31/19.
 
