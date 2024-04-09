@@ -191,5 +191,3 @@ double get_flux(double tvalue, double nu)
     flux=(2*h/c2)*(nu3/(exp_-1));
     return flux;
 }
-
-#include "Swift_Magnitudes.h"
